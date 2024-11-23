@@ -305,7 +305,7 @@ body {
     color: #F8F8FA;
 }
 
-
+/* Feature Property */
 
 .featured-properties {
   padding: 1rem;
@@ -317,6 +317,7 @@ h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
   margin: 1.5rem 0 2rem 0;
+  color: #0000AF;
 }
 
 .properties-wrapper {
@@ -326,7 +327,6 @@ h2 {
   justify-content: center;
 }
 
-/* Property Card */
 .property-card {
   background: #fff;
   border: 1px solid #ddd;
@@ -410,10 +410,9 @@ h2 {
 .current-price {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #007bff;
+  color: #0000AF;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .properties-wrapper {
     flex-direction: column;
