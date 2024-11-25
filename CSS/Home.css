@@ -192,7 +192,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .content h1 {
@@ -210,6 +210,7 @@ body {
     margin-bottom: 2rem;
     max-width: 600px;
 }
+
 .search-container {
     background: rgba(255, 255, 255, 0.9);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -308,118 +309,170 @@ body {
 /* Feature Property */
 
 .featured-properties {
-  padding: 1rem;
-  background-color: #F8F8FA;
+    padding: 2rem;
+    background-color: #F8F8FA;
 }
 
 h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  margin: 1.5rem 0 2rem 0;
-  color: #0000AF;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin: 1.5rem 0 2rem 0;
+    color: #0000AF;
 }
 
 .properties-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5rem;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
 }
 
 .property-card {
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  max-width: 300px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .property-card img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .tags {
-  position: absolute;
-  display: flex;
-  gap: 0.5rem;
-  margin: 1rem;
+    position: absolute;
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem;
 }
 
 .tag {
-  padding: 0.3rem 0.6rem;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 0.8rem;
-  text-transform: uppercase;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.8rem;
+    text-transform: uppercase;
 }
 
 .tag.featured {
-  background-color: #28a745;
+    background-color: #28a745;
 }
 
 .tag.sold {
-  background-color: #dc3545;
+    background-color: #dc3545;
 }
 
 .tag.rent {
-  background-color: #ffc107;
+    background-color: #ffc107;
 }
 
 .property-info {
-  padding: 1rem;
+    padding: 1rem;
 }
 
 .property-info h3 {
-  font-size: 1rem;
-  margin: 0 0 0.5rem;
-  line-height: 1.4;
+    font-size: 1rem;
+    margin: 0 0 0.5rem;
+    line-height: 1.4;
 }
 
 .details {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .details span {
-  background: #f8f9fa;
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
-  font-size: 0.9rem;
+    background: #f8f9fa;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
 }
 
 .pricing {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .original-price {
-  text-decoration: line-through;
-  color: #6c757d;
-  font-size: 0.9rem;
+    text-decoration: line-through;
+    color: #6c757d;
+    font-size: 0.9rem;
 }
 
 .current-price {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #0000AF;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0000AF;
 }
 
 @media (max-width: 768px) {
-  .properties-wrapper {
-    flex-direction: column;
-    align-items: center;
-  }
+    .properties-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .property-card {
-    max-width: 100%;
-  }
+    .property-card {
+        max-width: 100%;
+    }
+}
+
+/* Promotion Section */
+
+.background {
+    background-image: url('https://is1-2.housingcdn.com/01c16c28/6d660875b14d9facda4900b080186609/v0/fs/2_bhk_apartment-for-sale-vesu-Surat-others.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    gap: 10rem;
+}
+
+.card {
+    background-color: #F8F8FA;
+    color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.card p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    color: #0000AF;
 }
