@@ -44,4 +44,4 @@ Welcome to **Restate**, a modern and user-friendly real estate website designed 
    Open your browser and navigate to `http://localhost:3000`.
 ---
 
-Thank you for choosing Restatr for your real estate needs!
+Thank you for choosing Restate for your real estate needs!
