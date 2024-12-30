@@ -27,12 +27,10 @@ Welcome to **Restate**, a modern and user-friendly real estate website designed 
 - **Frontend**:
   - HTML5
   - CSS3
-  - JavaScript
+  - JavaScrip
 ---
 
 ## Installation
-
-### Prerequisites:
 
 ### Steps:
 1. Clone the repository:
